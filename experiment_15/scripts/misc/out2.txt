@@ -1,0 +1,4 @@
+Starting script at: 2022-05-20 17:13:07.653933
+Slept one second
+arg length: 3
+{'arg 0': 'testarg.py', 'arg 1': '3', 'arg 2': '4'}

@@ -1,0 +1,15 @@
+Running script: launch_unfrozen-chron_exp12.py at 2022-07-01 11:05:24.187439
+Traceback (most recent call last):
+  File "launch_unfrozen-chron_exp12.py", line 25, in <module>
+    raise ValueError('Script requires the following ordered/positional arguments:\n1. directory with training sets\n2. directory with testing sets\n3. gpu id\n4. the variable name of the response labels. \n5. type of normalization to use (passed to --label_key in train.py).\n6. Number of classes in the response variable/labels.\n7. The directory where to save the results csv files for all subjects. \n8. The number of epochs to run. \n9. The directory in which to save all of the models `[subject]_model.pt` and summary stats `[subject]_info.pkl`. \n10. "run" to run or anything else to dry run/print help')
+ValueError: Script requires the following ordered/positional arguments:
+1. directory with training sets
+2. directory with testing sets
+3. gpu id
+4. the variable name of the response labels. 
+5. type of normalization to use (passed to --label_key in train.py).
+6. Number of classes in the response variable/labels.
+7. The directory where to save the results csv files for all subjects. 
+8. The number of epochs to run. 
+9. The directory in which to save all of the models `[subject]_model.pt` and summary stats `[subject]_info.pkl`. 
+10. "run" to run or anything else to dry run/print help

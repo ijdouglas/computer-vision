@@ -1,0 +1,7 @@
+Starting script at: 2022-05-20 17:13:06.478092
+Slept one second
+arg length: 4
+Traceback (most recent call last):
+  File "testarg.py", line 12, in <module>
+    raise ValueError('Script requires 2 arguments')
+ValueError: Script requires 2 arguments
